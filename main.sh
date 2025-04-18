@@ -11,8 +11,6 @@ METABASE_BASH_FILE_NAME="metabase.sh"
 
 cd "$SETUP_PATH" || { echo "The folder $SETUP_PATH doesn't exist."; exit 1; }
 
-sudo -i
-
 chmod +x "$PATH_SETUP/$MYSQL_BASH_FILE_NAME"
 chmod +x "$PATH_SETUP/$METABASE_BASH_FILE_NAME"
 "$PATH_SETUP/$MYSQL_BASH_FILE_NAME"
