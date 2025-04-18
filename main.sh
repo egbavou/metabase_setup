@@ -5,7 +5,7 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-PATH="/tmp/metabase_setup/"
+PATH_SETUP="/tmp/metabase_setup/"
 MYSQL_BASH_FILE_NAME="mysql.sh"
 METABASE_BASH_FILE_NAME="metabase.sh"
 
